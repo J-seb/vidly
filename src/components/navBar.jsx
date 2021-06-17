@@ -24,6 +24,16 @@ const NavBar = () => {
             Rentals
           </NavLink>
         </li>
+        <li className="nav-item">
+          <NavLink className="nav-link" to="/login">
+            Login
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink className="nav-link" to="/register">
+            Register
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
